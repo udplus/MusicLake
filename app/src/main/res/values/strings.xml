@@ -1,149 +1,149 @@
 <resources>
-    <string name="app_name">音乐湖</string>
-    <string name="sure">确定</string>
-    <string name="open">打开</string>
-    <string name="close">关闭</string>
-    <!--欢迎界面-->
-    <string name="permission_hint">软件必须获取相关权限</string>
-    <string name="welcome_tips">听我想听的歌</string>
-    <string name="welcome_tips_1">音乐湖</string>
+    <string name="app_name">음악 호수</string>
+    <string name="sure">확신하는</string>
+    <string name="open">열려있는</string>
+    <string name="close">폐쇄</string>
+    <!--환영 화면-->
+    <string name="permission_hint">소프트웨어는 해당 권한을 얻어야합니다</string>
+    <string name="welcome_tips">내가 듣고 싶은 노래를 들어라</string>
+    <string name="welcome_tips_1">음악 호수</string>
 
 
-    <!--主界面-->
-    <string name="my">我的</string>
-    <string name="discover">发现</string>
-    <string name="charts">排行榜</string>
+    <!--주 인터페이스-->
+    <string name="my">나의 것</string>
+    <string name="discover">발견하다</string>
+    <string name="charts">순위 목록</string>
     <string name="mv">MV</string>
-    <string name="video_title">视频</string>
+    <string name="video_title">동영상</string>
 
-    <string name="login_hint">点我登录</string>
-    <string name="un_login_tips">暂未登录</string>
-    <string name="logout_hint">退出登录/关闭</string>
-    <string name="action_settings">设置</string>
-    <string name="header_author_url">个性标签</string>
-    <string name="widget_standard">音乐湖</string>
-    <string name="warning_add_playlist">暂不支持添加本地音乐和百度音乐</string>
-    <string name="add_un_support_local">暂不支持添加本地歌曲到在线歌单</string>
-    <string name="warning_network">暂不支持添加本地音乐和百度音乐</string>
-    <string name="warning">警告！</string>
-    <string name="resource_error">歌曲资源异常</string>
-    <string name="no_song_to_add">请选择需要添加的歌曲!</string>
-    <string name="prompt_login">请先登录！</string>
-    <string name="title_common">通用</string>
-    <string name="title_function">功能</string>
-    <string name="playlist_queue">播放队列</string>
-    <string name="playlist_manager">歌单管理</string>
-    <string name="title_batch_operate">批量操作</string>
-    <string name="title_order">排序</string>
-    <string name="title_order_title">按歌曲名</string>
-    <string name="title_order_artist">按歌手名</string>
-    <string name="title_order_album">按专辑名</string>
-    <string name="settings">设置</string>
-    <string name="exit">关闭</string>
+    <string name="login_hint">내가 로그인 시점</string>
+    <string name="un_login_tips">로그인하지 않았습니다</string>
+    <string name="logout_hint">로그인 / 닫기 종료</string>
+    <string name="action_settings">설정</string>
+    <string name="header_author_url">성격 태그</string>
+    <string name="widget_standard">음악 호수</string>
+    <string name="warning_add_playlist">로컬 음악 및 Baidu 음악을 추가하는 것을 지원하지 마십시오</string>
+    <string name="add_un_support_local">온라인 송 목록에 로컬 노래 추가를 지원하지 마십시오.</string>
+    <string name="warning_network">로컬 음악 및 Baidu 음악을 추가하는 것을 지원하지 마십시오</string>
+    <string name="warning">경고하다!</string>
+    <string name="resource_error">노래 자원 예외</string>
+    <string name="no_song_to_add">추가 할 노래를 선택하십시오!</string>
+    <string name="prompt_login">먼저 로그인을 해주세요!</string>
+    <string name="title_common">만능인</string>
+    <string name="title_function">함수</string>
+    <string name="playlist_queue">재생 대기열</string>
+    <string name="playlist_manager">노래 목록 관리</string>
+    <string name="title_batch_operate">벌크 작동</string>
+    <string name="title_order">종류</string>
+    <string name="title_order_title">노래 이름</string>
+    <string name="title_order_artist">가수가</string>
+    <string name="title_order_album">앨범 이름에 따르면</string>
+    <string name="settings">설정</string>
+    <string name="exit">폐쇄</string>
 
-    <!--本地音乐-->
-    <string name="item_local">本地歌曲</string>
-    <string name="item_history">播放历史</string>
-    <string name="item_favorite">我的收藏</string>
-    <string name="item_download">下载</string>
-    <string name="item_cached">缓存下载</string>
-    <string name="item_cached_music">缓存歌曲</string>
-    <string name="local_music">本地歌曲</string>
+    <!--현지 음악-->
+    <string name="item_local">로컬 곡</string>
+    <string name="item_history">역사를 재생하십시오</string>
+    <string name="item_favorite">내 컬렉션</string>
+    <string name="item_download">... 다운로드하기</string>
+    <string name="item_cached">캐시 다운로드</string>
+    <string name="item_cached_music">캐시 곡</string>
+    <string name="local_music">로컬 곡</string>
 
-    <string name="song_num">%1$d 首</string>
-    <string name="default_num">0 首</string>
-    <string name="random_play">随机播放</string>
-    <string name="random_play_num">随机播放(%1$d首)</string>
+    <string name="song_num">%1$d 머리</string>
+    <string name="default_num">0 머리</string>
+    <string name="random_play">셔플 재생</string>
+    <string name="random_play_num">셔플 재생(%1$D 우선)</string>
 
 
-    <string name="near_people">分享人资料</string>
-    <string name="detail_position">位置详情</string>
+    <string name="near_people">정보를 공유하십시오</string>
+    <string name="detail_position">위치 세부 정보</string>
     <string name="plusone">+1</string>
-    <string name="action_edit">发布动态</string>
+    <string name="action_edit">릴리스 역학</string>
     <string name="title_activity_playlist_song">PlaylistSongActivity</string>
     <string name="large_text">
-        \n\n"
+
     </string>
-    <string name="xml_activity_scan_title">扫描歌曲</string>
-    <string name="my_dnamic">我的发布</string>
-    <!-- Strings related to login -->
-    <string name="prompt_email">邮箱</string>
-    <string name="prompt_password">密码</string>
-    <string name="action_sign_in">登录</string>
-    <string name="action_sign_in_short">登录</string>
-    <string name="error_invalid_email">学号异常</string>
-    <string name="error_invalid_password">密码异常</string>
-    <string name="error_incorrect_password">密码错误</string>
-    <string name="error_field_required">学号和密码不能为空</string>
-    <string name="search_lyric">在线搜词</string>
-    <string name="action_search">在线搜歌</string>
+    <string name="xml_activity_scan_title">스캔 곡</string>
+    <string name="my_dnamic">내 릴리스</string>
+    <!--로그인과 관련된 문자열-->
+    <string name="prompt_email">우편</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="action_sign_in">로그인</string>
+    <string name="action_sign_in_short">로그인</string>
+    <string name="error_invalid_email">배우는 것이 비정상입니다</string>
+    <string name="error_invalid_password">암호 예외</string>
+    <string name="error_incorrect_password">잘못된 비밀번호</string>
+    <string name="error_field_required">학습 수와 암호는 비어있을 수 없습니다</string>
+    <string name="search_lyric">온라인 검색</string>
+    <string name="action_search">온라인 검색 곡</string>
 
-    <!-- 定位-->
-    <string name="gpsfollow">追随</string>
-    <string name="gpslocate">定位</string>
-    <string name="gpsrotate">旋转</string>
+    <!--위치-->
+    <string name="gpsfollow">따르다</string>
+    <string name="gpslocate">위치</string>
+    <string name="gpsrotate">회전</string>
 
-    <!--设置-->
-    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <!--설정-->
+    <string name="no_result">죄송합니다. 관련 데이터가 없습니다!</string>
 
-    <string name="title_activity_settings">设置</string>
-    <string name="info_common_settings">常规</string>
-    <string name="info_secret_setting">隐私设置</string>
-    <string name="info_secret_setting_detail">是否隐藏手机号和邮箱</string>
+    <string name="title_activity_settings">설정</string>
+    <string name="info_common_settings">전통적인</string>
+    <string name="info_secret_setting">개인 정보 설정</string>
+    <string name="info_secret_setting_detail">숨겨진 휴대 전화 번호와 사서함 여부</string>
 
-    <string name="info_network_setting">网络设置</string>
-    <string name="info_network_setting_detail">设置网络请求权限</string>
+    <string name="info_network_setting">네트워크 설정</string>
+    <string name="info_network_setting_detail">네트워크 요청을 설정하십시오</string>
 
-    <string name="info_music_mode_setting">音乐设置</string>
-    <string name="info_music_mode">播放模式</string>
-    <!-- Strings related to Settings -->
+    <string name="info_music_mode_setting">음악 설정</string>
+    <string name="info_music_mode">플레이 모드</string>
+    <!--설정과 관련된 문자열-->
 
-    <string name="pref_title_social_recommendations">禁止他人查看我的信息</string>
-    <string name="pref_title_social">不公开自己的基本信息</string>
+    <string name="pref_title_social_recommendations">다른 사람들이 내 정보를 보는 것을 금지합니다</string>
+    <string name="pref_title_social">자신의 기본 정보를 열지 마십시오</string>
 
-    <string name="pref_title_info">完善基本信息</string>
-    <string name="pref_title_download">下载目录</string>
-    <string name="pref_title_cache">缓存目录</string>
-
-
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">其他</string>g>
-
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">网络设置</string>
-
-    <string name="pref_title_wifi">省流量模式</string>
-    <string name="pref_title_wifi_summary">避免歌曲下载时消耗过多的流量</string>
-    <string name="pref_title_about">关于</string>
-    <string name="pref_title_update">检查更新</string>
-    <string name="pref_title_clear">清除缓存</string>
-    <string name="pref_title_cache_switch">是否开启边听边缓存</string>
-    <string name="pref_summary_cache_switch">播放在线歌曲时会自动缓存到指定的缓存目录下</string>
+    <string name="pref_title_info">기본 정보를 향상시킵니다</string>
+    <string name="pref_title_download">디렉토리 다운로드</string>
+    <string name="pref_title_cache">캐시 디렉토리</string>
 
 
-    <string name="title_warning">警告</string>
-    <string name="setting_clear_cache">是否确认清除所有图片缓存？</string>
+    <!--데이터 및 동기화의 예제 설정-->
+    <string name="pref_header_data_sync">다른</string>g>
+
+    <!--알림의 예제 설정-->
+    <string name="pref_header_notifications">네트워크 설정</string>
+
+    <string name="pref_title_wifi">지방 흐름 모드</string>
+    <string name="pref_title_wifi_summary">다운로드 할 때 과도한 트래픽을 피하십시오</string>
+    <string name="pref_title_about">~에 대한</string>
+    <string name="pref_title_update">업데이트 확인</string>
+    <string name="pref_title_clear">캐시 지우기</string>
+    <string name="pref_title_cache_switch">국경의 가장자리를 켜지는지 여부</string>
+    <string name="pref_summary_cache_switch">온라인 곡 재생 지정된 캐시 디렉토리로 자동 캐시합니다.</string>
+
+
+    <string name="title_warning">경고하다</string>
+    <string name="setting_clear_cache">모든 그림 캐시를 지우는 것이 확인 되었습니까?</string>
 
     <string name="pref_title_ringtone">Ringtone</string>
     <string name="pref_ringtone_silent">Silent</string>
 
-    <string name="pref_title_vibrate">自动下载歌词图片</string>
-    <string name="navigation_drawer_open">打开</string>
-    <string name="navigation_drawer_close">关闭</string>
+    <string name="pref_title_vibrate">가사 사진을 자동으로 다운로드하십시오</string>
+    <string name="navigation_drawer_open">열려있는</string>
+    <string name="navigation_drawer_close">폐쇄</string>
 
-    <!--version 2.5-->
-    <string name="unknown">未知</string>
-    <string name="login">登录</string>
-    <string name="register">暂无账号？快去注册吧</string>
-    <string name="Username">昵称</string>
-    <string name="Password">密码</string>
-    <string name="forgot_your_password">忘记密码?</string>
-    <string name="repeat_password">重复密码</string>
-    <string name="next">下一步</string>
-    <string name="register_publish">完成注册</string>
-    <string name="go">登录</string>
+    <!--버전 2.5.-->
+    <string name="unknown">알려지지 않은</string>
+    <string name="login">로그인</string>
+    <string name="register">계정 없습니까?가서 등록하십시오.</string>
+    <string name="Username">닉 이름</string>
+    <string name="Password">비밀번호</string>
+    <string name="forgot_your_password">비밀번호를 잊으 셨나요?</string>
+    <string name="repeat_password">암호를 반복하십시오</string>
+    <string name="next">다음 단계</string>
+    <string name="register_publish">완전한 등록</string>
+    <string name="go">로그인</string>
 
-    <!-- Transitions -->
+    <!--전환-->
     <string name="transition_cover">CoverTransition</string>
     <string name="transition_album">AlbumTransition</string>
 
@@ -155,125 +155,125 @@
     <string name="setting_key_mobile_wifi">mobile_wifi</string>
     <string name="setting_key_sound_effect">sound_effect</string>
 
-    <string name="tips">温馨提示</string>
-    <string name="play_tips">当前处于移动网络，确定打开移动网络播放开关吗？</string>
-    <string name="play_tips_sure">立即打开</string>
+    <string name="tips">팁</string>
+    <string name="play_tips">현재 모바일 네트워크에있는 경우 모바일 네트워크 재생 스위치를 여는 방법을 결정합니까?</string>
+    <string name="play_tips_sure">지금 열다</string>
 
-    <string name="cancel">取消</string>
-    <string name="now_play">正在播放</string>
-    <string name="unable_to_play">网络不给力,请检查网络!</string>
-    <string name="unable_to_play_exception">播放异常</string>
-    <string name="loading">努力加载中&#8230;</string>
-    <string name="lyric_loading">加载中&#8230;</string>
-    <string name="tip_empty_song">空空如也</string>
-    <string name="tip_empty_queue">播放队列为空</string>
-    <string name="tip_empty_comment">暂无评论</string>
-    <string name="tip_empty_playlist">暂无歌单，快去新建吧！</string>
-    <string name="recent_update">最近更新：%s</string>
-    <string name="recent_update_title">最近更新</string>
+    <string name="cancel">취소</string>
+    <string name="now_play">지금 놀아</string>
+    <string name="unable_to_play">네트워크는 강제하지 않습니다,네트워크를 확인하십시오!</string>
+    <string name="unable_to_play_exception">비정상적인 재생</string>
+    <string name="loading">로드하려고합니다&#8230;</string>
+    <string name="lyric_loading">적재&#8230;</string>
+    <string name="tip_empty_song">비어있는</string>
+    <string name="tip_empty_queue">재생 대기열이 비어 있습니다</string>
+    <string name="tip_empty_comment">댓글 없음</string>
+    <string name="tip_empty_playlist">노래 목록 없음, 새로운 건설로 이동하십시오!</string>
+    <string name="recent_update">최근 업데이트 :%s</string>
+    <string name="recent_update_title">최근에 업데이트되었습니다</string>
 
-    <string name="search">搜索</string>
-    <string name="search_history">搜索历史</string>
-    <string name="search_hot">热门搜索</string>
-    <string name="search_tips">歌手、歌名</string>
+    <string name="search">검색</string>
+    <string name="search_history">검색 기록</string>
+    <string name="search_hot">인기있는 검색</string>
+    <string name="search_tips">가수, 노래 이름</string>
 
-    <string name="create_playlist">新建歌单</string>
-    <string name="action_location">定位</string>
-    <string name="action_follow">追随</string>
-    <string name="action_rotate">旋转</string>
+    <string name="create_playlist">새로운 노래 목록</string>
+    <string name="action_location">위치</string>
+    <string name="action_follow">따르다</string>
+    <string name="action_rotate">회전</string>
 
-    <string name="error_connection">网络连接异常，请稍后重试！</string>
-    <string name="error_search">搜索失败，请稍后重试</string>
-    <string name="secret_num">~~ 动态 %1$d ~~</string>
-    <string name="error_playing_track">播放出错</string>
-    <string name="folders">文件夹</string>
+    <string name="error_connection">네트워크 연결이 비정상이고 나중에 다시 시도하십시오!</string>
+    <string name="error_search">검색 실패, 나중에 다시 시도하십시오</string>
+    <string name="secret_num">~~ 동적 %1$d ~~</string>
+    <string name="error_playing_track">재생 오류</string>
+    <string name="folders">폴더</string>
     <string name="play_time">--:--</string>
-    <string name="play_no_resource">无音乐</string>
+    <string name="play_no_resource">고귀한</string>
     <string name="play_mode">%1$s("%2$d")</string>
-    <string name="play_mode_random">随机播放</string>
-    <string name="play_mode_repeat">单曲播放</string>
-    <string name="play_mode_loop">顺序播放</string>
+    <string name="play_mode_random">셔플 재생</string>
+    <string name="play_mode_repeat">단일 재생</string>
+    <string name="play_mode_loop">순서대로 재생하십시오</string>
 
 
-    <string name="delete">删除</string>
-    <string name="pause">暂停</string>
-    <string name="start">开始</string>
-    <string name="tasks_manager_demo_status_loading">加载中&#8230;</string>
-    <string name="tasks_manager_demo_status_pending">队列中</string>
-    <string name="tasks_manager_demo_status_started">开始下载</string>
-    <string name="tasks_manager_cache_status_started">开始下载</string>
-    <string name="tasks_manager_demo_status_connected">已连接上</string>
-    <string name="tasks_manager_demo_status_progress">下载中&#8230;</string>
-    <string name="tasks_manager_cache_status_progress">下载中&#8230;</string>
-    <string name="tasks_manager_demo_status_downloading" formatted="false">已下载%d %%</string>
-    <string name="tasks_manager_cache_status_downloading" formatted="false">已缓存%d %%</string>
-    <string name="tasks_manager_demo_status_error">出错</string>
-    <string name="tasks_manager_demo_status_paused">暂停</string>
-    <string name="tasks_manager_demo_status_completed">下载完成</string>
-    <string name="tasks_manager_cache_status_completed">缓存完成</string>
-    <string name="tasks_manager_demo_status_not_downloaded">未下载</string>
-    <string name="tasks_manager_cache_status_not_downloaded">未缓存</string>
+    <string name="delete">삭제</string>
+    <string name="pause">정지</string>
+    <string name="start">시작</string>
+    <string name="tasks_manager_demo_status_loading">적재&#8230;</string>
+    <string name="tasks_manager_demo_status_pending">대기열에</string>
+    <string name="tasks_manager_demo_status_started">데모 다운로드</string>
+    <string name="tasks_manager_cache_status_started">케쉬 다운로드</string>
+    <string name="tasks_manager_demo_status_connected">이미 연결되어 있습니다</string>
+    <string name="tasks_manager_demo_status_progress">다운로드&#8230;</string>
+    <string name="tasks_manager_cache_status_progress">다운로드&#8230;</string>
+    <string name="tasks_manager_demo_status_downloading" formatted="false">다운로드%d %%</string>
+    <string name="tasks_manager_cache_status_downloading" formatted="false">캐시가있다%d %%</string>
+    <string name="tasks_manager_demo_status_error">오류</string>
+    <string name="tasks_manager_demo_status_paused">정지</string>
+    <string name="tasks_manager_demo_status_completed">다운로드 완료</string>
+    <string name="tasks_manager_cache_status_completed">캐시 완료</string>
+    <string name="tasks_manager_demo_status_not_downloaded">다운로드되지</string>
+    <string name="tasks_manager_cache_status_not_downloaded">확인되지 않았습니다</string>
 
 
-    <string name="play_next">播放下一首</string>
-    <string name="album">专辑</string>
-    <string name="setting_lyric">桌面歌词</string>
-    <string name="setting_lyric_des">点击请求悬浮窗权限</string>
-    <string name="setting_socket">实时统计</string>
-    <string name="setting_socket_des">默认开启，如果影响到运行速度请关闭！</string>
-    <string name="setting_timing">定时关闭</string>
-    <string name="setting_timing_summary">定时关闭</string>
-    <string name="count_down_time">定时关闭播放</string>
+    <string name="play_next">다음을 재생하십시오</string>
+    <string name="album">앨범</string>
+    <string name="setting_lyric">데스크탑 가사</string>
+    <string name="setting_lyric_des">일시 중단 된 창을 요청하려면 클릭하십시오</string>
+    <string name="setting_socket">실시간 통계</string>
+    <string name="setting_socket_des">기본적으로 실행 속도에 영향을 미치는 경우 끄십시오!</string>
+    <string name="setting_timing">타이밍 닫기</string>
+    <string name="setting_timing_summary">타이밍 닫기</string>
+    <string name="count_down_time">시간 종료 재생</string>
 
-    <!--about-->
-    <string name="title_about">关于音乐湖</string>
-    <string name="version">版本号</string>
-    <string name="author">作者</string>
-    <string name="about_des">描述</string>
-    <string name="about_version">软件版本号: %1$s</string>
-    <string name="about_project">项目地址</string>
-    <string name="about_feedback">邮件反馈</string>
-    <string name="about_software"><u>关于软件</u></string>
+    <!--~에 대한-->
+    <string name="title_about">음악 호수 소개</string>
+    <string name="version">버전 번호</string>
+    <string name="author">작가</string>
+    <string name="about_des">설명하다</string>
+    <string name="about_version">소프트웨어 버전 번호: %1$s</string>
+    <string name="about_project">프로젝트 주소</string>
+    <string name="about_feedback">메일 의견</string>
+    <string name="about_software"><u>소프트웨어 정보</u></string>
     <string name="about_project_url">https://github.com/caiyonglong/MusicLake</string>
-    <string name="share_title">分享</string>
-    <string name="browser_title">使用系统浏览器打开</string>
+    <string name="share_title">공유하다</string>
+    <string name="browser_title">시스템 브라우저를 사용하여 열립니다</string>
     <string name="share_article_url"><![CDATA[<string name=\"share_article_url\">%1$s分享【%2$s】：%3$s</string>]]></string>
-    <string name="artist_detail">歌手详情</string>
-    <string name="title_test">测试</string>
+    <string name="artist_detail">싱어 세부 사항</string>
+    <string name="title_test">테스트</string>
 
-    <!--歌单-->
-    <string name="playlist_name">歌单名</string>
-    <string name="playlist_online">我的歌单</string>
-    <string name="playlist_creator">创建者</string>
-    <string name="playlist_rename">重命名歌单</string>
-    <string name="new_playlist_type_error">新建歌单类型异常（目前支持本地和在线歌单）</string>
+    <!--노래 목록-->
+    <string name="playlist_name">명음</string>
+    <string name="playlist_online">내 노래 목록</string>
+    <string name="playlist_creator">창조자</string>
+    <string name="playlist_rename">노래 목록의 이름을 바꿉니다</string>
+    <string name="new_playlist_type_error">새로운 곡 단일 유형 예외 (현재 로컬 및 온라인 곡을 지원)</string>
 
 
-    <!-- 在线音乐-->
+    <!--온라인 음악-->
     <string name="playlist_num">%1$s("%2$d")</string>
-    <string name="charts_baidu">百度音乐排行榜</string>
-    <string name="charts_qq">QQ音乐排行榜</string>
-    <string name="charts_netease">网易云音乐排行榜</string>
-    <string name="cate_huayu">华语</string>
-    <string name="cate_gufeng">古风</string>
-    <string name="cate_select">选择分类</string>
-    <string name="cate_all">全部</string>
-    <string name="cate_liuxing">流行</string>
-    <string name="see_all">查看全部</string>
-    <string name="radio">电台列表</string>
-    <string name="hot_artist">热门歌手</string>
-    <string name="all_artist">歌手列表</string>
-    <string name="genes">流派</string>
-    <string name="radio_list">电台</string>
-    <string name="personal_fm">私人FM</string>
+    <string name="charts_baidu">Baidu 음악 랭킹</string>
+    <string name="charts_qq">QQ 음악 차트</string>
+    <string name="charts_netease">Netease 클라우드 음악 목록</string>
+    <string name="cate_huayu">중국인</string>
+    <string name="cate_gufeng">유물</string>
+    <string name="cate_select">카테고리를 선택하십시오</string>
+    <string name="cate_all">모두</string>
+    <string name="cate_liuxing">인기</string>
+    <string name="see_all">모두보기</string>
+    <string name="radio">라디오 목록</string>
+    <string name="hot_artist">인기 가수</string>
+    <string name="all_artist">가수 목록</string>
+    <string name="genes">학교</string>
+    <string name="radio_list">라디오 방송국</string>
+    <string name="personal_fm">개인 FM.</string>
 
 
-    <!--通知栏-->
-    <string name="notification_description">通知栏播放控制</string>
+    <!--알림 바-->
+    <string name="notification_description">알림 표시 줄 재생 제어</string>
     <string name="notification_channel_id">music_lake_01</string>
-    <string name="song_title">歌曲名</string>
-    <string name="song_artist">歌手名</string>
-    <string name="search_no_results">没有结果</string>
+    <string name="song_title">노래 제목</string>
+    <string name="song_artist">가수</string>
+    <string name="search_no_results">결과가 없다</string>
     <string name="all">所有</string>
     <string name="netease">网易云音乐</string>
     <string name="qq">qq音乐</string>
@@ -333,7 +333,7 @@
     <string name="menu_delete_playlist">删除歌单</string>
     <string name="menu_other">通用</string>
     <string name="menu_feature">功能</string>
-    <!--歌词-->
+    <!--가사-->
     <string name="loading_lyric">歌词加载中…</string>
     <string name="lyric_format">字体样式</string>
     <string name="lyric_format_color">歌词颜色</string>
@@ -360,7 +360,7 @@
     <string name="about_update">检查更新</string>
     <string name="download_exits">%1$s已在下载列表中…</string>
 
-    <!--编辑TAG-->
+    <!--편집기 태그-->
     <string name="tag_title">编辑音乐标签</string>
     <string name="tag_edit_tips">是否修改歌曲信息？</string>
     <string name="tag_edit_error">修改歌曲信息失败</string>
@@ -399,7 +399,7 @@
     <string name="folder_title">文件夹</string>
     <string name="song_comment_title">歌曲评论</string>
     <string name="song_comment_new">最新评论</string>
-    <!--音乐社区-->
+    <!--음악 커뮤니티-->
     <string name="real_time_user">实时在线人数</string>
     <string name="send_message">发送消息</string>
     <string name="title_activity_chat">音乐社区</string>
@@ -456,7 +456,7 @@
     <string name="unlock_notification">通知栏解锁</string>
     <string name="recommend_song_list">推荐歌单</string>
 
-    <!--登录界面-->
+    <!--로그인 인터페이스-->
     <string name="login_title">用户登录</string>
     <string name="logout_prompt">您确定要退出或切换其他账号吗？</string>
     <string name="logout_netease_prompt">您确定要取消绑定网易云音乐账号吗？</string>
@@ -479,7 +479,7 @@
     <string name="recommend_song">推荐歌曲</string>
     <string name="playlist_square">歌单广场</string>
     <string name="tag_filter">筛选</string>
-    <!--定时播放相关-->
+    <!--시간 초과 재생-->
     <string name="title_count_down">定时关闭</string>
     <string name="shi_wu_minutes_close">15分钟后</string>
     <string name="san_shi_minutes_close">30分钟后</string>
@@ -492,7 +492,7 @@
     <string name="switch_minutes_close_1">不开启</string>
 
 
-    <!--歌单广场-->
+    <!--노래 광장-->
     <string name="channelEdit">编辑</string>
     <string name="channelEditFinish">完成</string>
     <string name="all_playlist">全部歌单</string>

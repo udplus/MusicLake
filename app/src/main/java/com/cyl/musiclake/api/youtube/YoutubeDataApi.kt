@@ -14,27 +14,27 @@ import java.io.IOException
 object YoutubeDataApi {
     private val limit: Long = 25
     /**
-     * 定义HTTP传输的全局实例。
+     * HTTP 전송의 전역 인스턴스를 정의하십시오.
      */
     private val HTTP_TRANSPORT = NetHttpTransport()
 
     /**
-     * 定义JSON工厂的全局实例。
+     * JSON 공장의 글로벌 인스턴스를 정의하십시오.
      */
     val JSON_FACTORY: JsonFactory = JacksonFactory()
     /**
-     * 定义一个Youtube对象的全局实例，该对象将被使用。
-     * 制作YouTube数据API请求。
+     * 사용되는 YouTube 객체의 전역 인스턴스를 정의합니다.
+     * YouTube 데이터 API 요청을하십시오.
      */
     private var youtube: YouTube? = null
 
     /**
-     * 初始化一个YouTube对象，在YouTube上搜索视频。然后
-     * 在结果集中显示每个视频的名称和缩略图。
+     * YouTube 개체를 초기화하고 YouTube에서 비디오를 검색하십시오.그 다음에
+     * 각 비디오의 이름과 축소판이 결과 집합에 표시됩니다.
      */
     fun search(queryTerm: String, pageToken: String, hasCaption: Boolean = false): SearchListResponse? {
         try {
-            // 获取YouTube数据API请求对象
+            // YouTube 데이터 API 요청 객체 가져 오기
             youtube = YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, HttpRequestInitializer { }).setApplicationName("com.aoe.music.MusicApp").build()
             // Define the API request for retrieving search results.
             val search = youtube!!.search().list("id,snippet")
@@ -68,7 +68,7 @@ object YoutubeDataApi {
 
     private fun getSongInfo(ids: String): VideoListResponse? {
         try {
-            // 获取YouTube数据API请求对象
+            // YouTube 데이터 API 요청 객체 가져 오기
             youtube = YouTube.Builder(HTTP_TRANSPORT, JSON_FACTORY, HttpRequestInitializer { }).setApplicationName("com.aoe.music.MusicApp").build()
             // Define the API request for retrieving search results.
             val search = youtube!!.videos().list("id,snippet")
@@ -94,7 +94,7 @@ object YoutubeDataApi {
     }
 
     /**
-     * 根据id 获取Youtube歌曲信息
+     * ID. YouTube 노래 정보를 얻으십시오
      */
     fun getYoutubeSongInfo(ids: List<String>, result: (resultList: MutableList<Music>) -> Unit) {
 
@@ -132,11 +132,11 @@ object YoutubeDataApi {
     }
 
     /**
-     * 获取歌手的歌单
-     * 通过 snippet.type (upload/subscription/like)
-     * 获取他上传的视频（部分获取不到，猜测版权问题）
-     * 获取他的订阅频道（目前发现当获取他上传的视频数量较少的时候可以获取到此数据）
-     * 获取相似推荐（当获取的他上传的视频数量为0的时候可以获取到此数据）
+     * 노래 목록을 얻으십시오
+     * 지나가 다 snippet.type (upload/subscription/like)
+     * 그가 업로드 한 비디오를 가져옵니다 (일부 획득, 저작권 문제 추측)
+     * 가입 채널을 가져 오십시오 (이제 업로드 한 비디오 수를 얻을 때이 데이터를 얻을 수 있습니다)
+     * 유사한 권장 사항을 얻으십시오 (이 데이터는 0 인 비디오 수가 0 일 때 얻을 수 있습니다)
      */
     fun getUpListBySinger(singerId: String, pageToken: String?,
                           resultList: (String?, MutableList<Music>) -> Unit) {

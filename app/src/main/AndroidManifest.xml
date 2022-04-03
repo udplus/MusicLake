@@ -4,14 +4,14 @@
     package="com.cyl.musiclake">
 
     <uses-permission android:name="android.permission.VIBRATE" />
-    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- 네트워크 특권 -->
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 文件读写权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 파일 읽기 및 쓰기 권한 -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许获得audio session ID -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 允许获得电话状态 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 오디오 허용 session ID -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 전화 상태를 허용합니다 -->
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
     <uses-permission
         android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
@@ -19,12 +19,12 @@
     <uses-permission
         android:name="android.permission.WRITE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 唤醒休眠 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 잠을 잘라 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 用于进行网络定位 -->
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- 用于访问GPS定位 -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 用于读取手机当前的状态 -->
-    <!-- 定位包、导航包需要的额外权限（注：基础权限也需要） -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 네트워크 위치 지정 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- GPS 위치에 액세스하는 데 사용됩니다 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 전화의 현재 상태를 읽는 데 사용됩니다 -->
+    <!-- 위치 지정 패킷, 탐색 패키지에 필요한 추가 사용 권한 (참고 : 기본 특권 필요성) -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -193,11 +193,11 @@
 
                 <data android:scheme="tencent101454823" />
             </intent-filter>
-        </activity> <!-- 接入第三方QQ登录 -->
+        </activity> <!-- 타사 QQ 로그인에 액세스하십시오 -->
         <activity
             android:name="com.tencent.connect.common.AssistActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 接入第三方QQ登录 -->
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- 타사 QQ 로그인에 액세스하십시오 -->
         <activity
             android:name=".ui.main.TestActivity"
             android:label="调试" />

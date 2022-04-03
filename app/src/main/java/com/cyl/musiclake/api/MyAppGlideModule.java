@@ -20,19 +20,19 @@ public class MyAppGlideModule extends AppGlideModule {
     @Override
     public void applyOptions(Context context, GlideBuilder builder) {
         super.applyOptions(context, builder);
-        // 定义缓存大小和位置
-//        builder.setDiskCache(new InternalCacheDiskCacheFactory(context, mDiskSize));  //内存中
+        // 캐시 크기와 위치를 정의하십시오
+//        builder.setDiskCache(new InternalCacheDiskCacheFactory(context, mDiskSize));  //메모리
         builder.setDiskCache(new ExternalCacheDiskFactory(context)); //sd卡中
 //        builder.setLogLevel(Log.DEBUG);
-        // 默认内存和图片池大小
-//        builder.setMemoryCache(new LruResourceCache(defaultMemoryCacheSize)); // 该两句无需设置，是默认的
+        // 기본 메모리 및 그림 풀 크기
+//        builder.setMemoryCache(new LruResourceCache(defaultMemoryCacheSize)); // 이 두 문장을 설정할 필요가 없습니다. 기본값입니다.
 //        builder.setBitmapPool(new LruBitmapPool(defaultBitmapPoolSize));
 
-        // 自定义内存和图片池大小
+        // 사용자 정의 메모리 및 그림 풀 크기
 //        builder.setMemoryCache(new LruResourceCache(mMemorySize));
 //        builder.setBitmapPool(new LruBitmapPool(mMemorySize));
 
-        // 定义图片格式
+        // 이미지 형식을 정의하십시오
 //        builder.setDecodeFormat(DecodeFormat.PREFER_ARGB_8888);
 //        builder.setDecodeFormat(DecodeFormat.PREFER_RGB_565); // 默认
 

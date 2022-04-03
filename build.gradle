@@ -22,7 +22,7 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-        // tinkersupport插件, 其中lastest.release指拉取最新版本，也可以指定明确版本号，例如1.0.4
+        // tinkersupport플러그인, 가장 최근의 release는 최신 버전을 나타냅니다. 예를 들어 1.0.4의 클리어 버전 번호를 지정할 수 있습니다.
 //        classpath "com.tencent.bugly:tinker-support:1.1.2"
     }
 }

@@ -13,30 +13,30 @@ import retrofit2.http.*
 
 /**
  * Created by master on 2018/4/5.
- * des :自有后台歌单接口
+ * des :자기 게시 곡 단일 인터페이스
  *
  */
 
 interface PlaylistApiService {
 
     /**
-     * 获取音乐接口api的最新接口
-     * @param url 请求链接
+     * 음악 인터페이스 API의 최신 인터페이스를 가져옵니다
+     * @param url 요청 링크
      * @return
      */
     @GET
     fun checkMusicApiJs(@Url url: String): Observable<String>
 
     /**
-     * 获取音乐接口api的最新通知
-     * @param url 请求链接 https://music-lake-android.zzsun.cc/notice.json
+     * 음악 인터페이스 API에서 최신 통지를 받으십시오
+     * @param url 요청 링크 https://music-lake-android.zzsun.cc/notice.json
      * @return
      */
     @GET
     fun checkMusicLakeNotice(@Url url: String): Observable<NoticeInfo>
 
     /**
-     * 获取聊天信息
+     * 채팅 정보 가져 오기
      * @param start_dt 开始时间 2018-09-29默认为 2018-09-29 00:00:00
      * @param end_dt 结束时间 '2018-09-29 23:59:59'
      * @return
@@ -45,29 +45,29 @@ interface PlaylistApiService {
     fun getChatHistory(@Header("accesstoken") token: String?, @Query("start_dt") start: String?, @Query("end_dt") end: String?): Observable<MutableList<MessageInfoBean>>
 
     /**
-     * 获取歌单
+     * 노래 목록을 얻으십시오
      *
-     * @param token 秘钥
+     * @param token 비밀
      * @return
      */
     @GET("playlist")
     fun getOnlinePlaylist(@Header("accesstoken") token: String?): Observable<ResponseBody>
 
     /**
-     * 获取歌单数据
+     * 노래 목록을 얻으십시오
      *
-     * @param token 秘钥
-     * @param id    歌单id
+     * @param token 비밀
+     * @param id    노래 목록 ID.
      * @return
      */
     @GET("playlist/{id}")
     fun getMusicList(@Header("accesstoken") token: String?, @Path("id") id: String): Observable<ResponseBody>
 
     /**
-     * 删除歌单
+     * 노래 목록 삭제
      *
-     * @param token 秘钥
-     * @param id    歌单id
+     * @param token 비밀
+     * @param id    노래 목록 ID.
      * @return
      */
     @DELETE("playlist")
@@ -75,10 +75,10 @@ interface PlaylistApiService {
 
 
     /**
-     * 重命名歌单
+     * 노래 목록의 이름을 바꿉니다
      *
-     * @param token    秘钥
-     * @param id       歌单id
+     * @param token    비밀
+     * @param id       노래 목록 ID.
      * @param playlist 歌单信息
      * @return
      */
@@ -87,7 +87,7 @@ interface PlaylistApiService {
     fun renameMusic(@Header("accesstoken") token: String?, @Path("id") id: String, @Body playlist: PlaylistInfo): Observable<ResponseBody>
 
     /**
-     * 新建歌单
+     * 새로운 노래 목록
      *
      * @param token
      * @return
@@ -97,10 +97,10 @@ interface PlaylistApiService {
     fun createPlaylist(@Header("accesstoken") token: String?, @Body playlist: PlaylistInfo): Observable<ResponseBody>
 
     /**
-     * 收藏歌曲
+     * 컬렉션 곡
      *
      * @param token
-     * @param id        歌单id
+     * @param id        노래 목록 ID.
      * @param musicInfo 歌曲信息
      * @return
      */
@@ -109,10 +109,10 @@ interface PlaylistApiService {
     fun collectMusic(@Header("accesstoken") token: String?, @Path("id") id: String, @Body musicInfo: MusicInfo): Observable<ResponseBody>
 
     /**
-     *  批量收藏歌曲(相同同音乐源)
+     *  배치 컬렉션 노래 (동일 음악 소스)
      *
      * @param token
-     * @param ids        歌单ids
+     * @param ids        노래 목록 ID.s
      * @param musicInfo 歌曲信息
      * @return
      */
@@ -121,10 +121,10 @@ interface PlaylistApiService {
     fun collectBatchMusic(@Header("accesstoken") token: String?, @Path("id") id: String, @Body data: Any): Observable<CollectResult>
 
     /**
-     * 批量收藏歌曲(不同音乐源)
+     * 배치 컬렉션 노래 (다른 음악 소스)
      *
      * @param token
-     * @param ids        歌单ids
+     * @param ids        노래 목록 ID.s
      * @param musicInfo 歌曲信息
      * @return
      */
@@ -135,7 +135,7 @@ interface PlaylistApiService {
     /**
      * 取消收藏歌曲
      *
-     * @param token 秘钥
+     * @param token 비밀
      * @return
      */
     @DELETE("playlist/{id}")

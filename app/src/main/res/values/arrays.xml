@@ -2,44 +2,44 @@
 <resources>
     <string-array name="tab_titles">
 
-        <item>音乐堂</item>
-        <item>音乐湖</item>
+        <item>콘서트홀</item>
+        <item>음악 호수</item>
 
     </string-array>
 
     <string-array name="playlist_category">
-        <item>全部</item>
+        <item>모두</item>
     </string-array>
 
     <string-array name="player_titles">
 
-        <item>播放列表</item>
-        <item>图片</item>
-        <item>歌词</item>
+        <item>재생 목록</item>
+        <item>그림</item>
+        <item>가사</item>
 
     </string-array>
     <string-array name="song_list">
 
-        <item>喜欢</item>
-        <item>歌曲信息</item>
+        <item>처럼</item>
+        <item>노래 정보</item>
 
     </string-array>
     <string-array name="love_list">
 
-        <item>移除喜欢</item>
-        <item>歌曲信息</item>
+        <item>대로 제거하십시오</item>
+        <item>노래 정보</item>
 
     </string-array>
     <string-array name="song_download">
 
-        <item>添加到下载队列</item>
-        <item>歌曲信息</item>
+        <item>다운로드 대기열에 추가하십시오</item>
+        <item>노래 정보</item>
     </string-array>
     <string-array name="info_music_mode">
 
-        <item>顺序播放</item>
-        <item>随机播放</item>
-        <item>单曲循环</item>
+        <item>순서대로 재생하십시오</item>
+        <item>셔플 재생</item>
+        <item>단일 사이클</item>
     </string-array>
 
     <string-array name="info_music_mode_values">
@@ -49,8 +49,8 @@
     </string-array>
 
     <string-array name="info_secret_setting">
-        <item>不保密</item>
-        <item>保密</item>
+        <item>기밀이 아닙니다</item>
+        <item>기밀성</item>
     </string-array>
     <array name="material_colors">
         <item>#F44336</item>
@@ -67,10 +67,10 @@
 
 
     <string-array name="pref_quality_select">
-        <item>标准</item>
-        <item>较高</item>
-        <item>高清</item>
-        <item>无损</item>
+        <item>기준</item>
+        <item>높은</item>
+        <item>HD.</item>
+        <item>손상되지 않았습니다</item>
     </string-array>
     <string-array name="pref_quality_select_values">
         <item>128</item>

@@ -3,38 +3,39 @@
 
 [MediaPlayer、ExoPlayer音乐库封装](https://github.com/caiyonglong/MusicLake/tree/dev_musiclib)
 
-# 因收到网易云音乐和QQ音乐的官方警告函，我们已关闭app的相关api服务,不再提供任何apk。
+# Netease Music 및 QQ Music의 공식 경고 편지로 인해 API 서비스를 폐쇄했습니다.,더 이상 모든 APK를 제공하지 않습니다.
 
-# 编译&服务器部署 
+# 컴파일 및 서버 배포
  [build.md](BUILD.md)
 
-# 功能版本
-- Android 音乐播放器(本地/在线播放) （最低支持Android版本5.0）
-- 支持多平台音乐源，百度音乐，虾米音乐、网易云音乐、Youtube（需要翻墙）
-- 歌词播放、桌面歌词、桌面小控件
-- 通知栏控制、线控播放、音频焦点控制
-- QQ登录、微博登陆、在线歌单同步
-- 网易云热门歌手，百度电台列表，网易云mv排行榜，mv播放评论
-- 酷狗歌词搜索、修改歌词样式、歌词翻译
-- [PC端](https://github.com/sunzongzheng/music)
+# 기능 버전
+- Android 뮤직 플레이어 (로컬 / 온라인 플레이) (최소 지원 안드로이드 버전 5.0)
+- 다중 플랫폼 음악 소스, Baidu 음악, 새우 음악, Netease 클라우드 음악, YouTube (벽을 뒤집어야 함)
+- 가사 재생, 데스크탑 가사, 바탕 화면 소규모 컨트롤
+- 알림 바 제어, 와이어 제어 재생, 오디오 포커스 제어
+    QQ 로그인, Weibo Landing, 온라인 송 목록 동기화
+- Netease Cloud 인기있는 가수, Baidu 라디오 목록, 네스 클라우드 MV 목록, MV 플레이 코멘트
+- 멋진 개가사 검색, 수정 서정 스타일, 가사 번역
+- [PC끝](https://github.com/sunzongzheng/music)
 
-### 开源不易，有兴趣可给个star，支持一下哦！
-- 群聊已经解散，有什么问题可以提[issues](https://github.com/caiyonglong/MusicLake/issues)！，有想法可以提PR。感谢关注🙏
+### 오픈 소스는 쉽지 않고, 관심이 쉽고, 별을 제공 할 수 있습니다!
+- 그룹 채팅이 해산되었으며, 언급 될 수있는 문제가 무엇입니까?[issues](https://github.com/caiyonglong/MusicLake/issues)
+    ...에!나는 홍보가 언급 될 수 있다는 생각이있다.주의를 기울이 줘서 고마워
 
-![功能](screenshots/features.png)
+![함수](screenshots/features.png)
 
-# 计划
-- [ ] 整理文档
-    - [musicApi接入和调试文档](./doc/音乐接口组件库接入.md)
-- [ ] 代码重构
+# 계획
+- [ ] 문서 정렬
+    - [MusicAPI 액세스 및 디버그 문서](./doc/音乐接口组件库接入.md)
+- [ ] 리팩토링
 
-# 相关项目|音乐API
-- [客户端音乐API](https://github.com/caiyonglong/MusicApi)
-- [客户端/PC音乐共用API](https://github.com/sunzongzheng/musicApi)
-- [后台/云歌单API](https://github.com/sunzongzheng/player-be)
-- [三方/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+# 관련 프로젝트|음악 API.
+- [클라이언트 음악 API.](https://github.com/caiyonglong/MusicApi)
+- [고객/PC 음악 공유 API.](https://github.com/sunzongzheng/musicApi)
+- [무대 뒤에서/yunge 싱글 API.](https://github.com/sunzongzheng/player-be)
+- [삼자/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
-# 第三方库
+# 제 3 자 라이브러리
 
 - [rxjava](https://github.com/ReactiveX/RxJava)
 - [retrofit](https://github.com/square/retrofit)
@@ -45,11 +46,11 @@
 - [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
 - [More..](https://github.com/caiyonglong/MusicLake/blob/develop/app/build.gradle)
 
-# 软件运行截图
+# 소프트웨어 실행 스크린 샷
 
 
 
-    因为github限制，所有图片预览需要翻强或者git clone到本地才能预览
+    github 제한이 있으므로 모든 그림이 뒤집어 져야합니다. 로컬 미리보기에 복제하십시오
 
 
 
@@ -81,28 +82,25 @@
 
 
 
-# 免责声明
-- 音乐湖只用作个人学习研究，禁止用于商业及非法用途，如产生法律纠纷与本人无关
-- 音乐api来自于github，非官方版api，本软件不提供任何音频存储服务，如需下载音频，请支持正版！。
-- 音乐版权归各网站所有，本站不承担任何法律责任和连带责任。如果已经涉及到您的版权，请速与本站管理员联系，我们将第一时间为你处理。
-- MusicLake 并不是一个破解软件，不提供下载付费歌曲！
+# 면책 조항
+- 음악 호수는 법적 분쟁을 창출하는 것과 같은 상업 및 불법적 인 목적을 금지하고, 할 일이없는 개인 학습 연구로만 사용됩니다.
+- 음악 API는 GitHub, 비 공식 API에서 제공됩니다.이 소프트웨어는 오디오 저장소 서비스를 제공하지 않습니다. 오디오를 다운로드 해야하는 경우 정품을 지원하십시오!...에
+- 음악 저작권은 모든 사이트에 속하며이 사이트는 법적 책임과 공동 책임을 맡지 않습니다.이미 귀하의 저작권이 참여한 경우이 관리자에게 문의하여 처음으로 처리하십시오.
+- MusicLake는 균열 소프트웨어가 아니며 유료 노래를 다운로드하지 않습니다!
+# 저작권주의 사항"QQ", "QQ 음악"과 펭귄 이미지의 이미지, 그래픽 및 비즈니스 로고의 이미지, 저작권 또는 상표권이 Tencent에 속합니다.
+QQ 음악은 플랫폼의 라이센스의 저작권을 누리고 저작권 콘텐츠를 복사하지 마십시오.자세한 내용은 QQ 음악 사용자 계약을 참조하십시오.
 
-# 版权声明
-“QQ”、“QQ音乐”及企鹅形象等文字、图形和商业标识，其著作权或商标权归腾讯公司所有。
-QQ音乐享有对其平台授权音乐的版权，请勿随意下载，复制版权内容。具体内容请参考QQ音乐用户协议。
+"새우", "새우 음악"및 기타 텍스트, 그래픽 및 상업 로고, 그들의 저작권 또는 상표권은 알리 회사에 속합니다.
+새우 음악 음악이 라이센스가 부여 된 저작권을 누리고 저작권 콘텐츠를 복사하지 마십시오.자세한 내용은 새우 음악 사용자 계약을 참조하십시오.
 
-“虾米”、“虾米音乐”等文字、图形和商业标识，其著作权或商标权归阿里公司所有。
-虾米音乐享有对其平台授权音乐的版权，请勿随意下载，复制版权内容。具体内容请参考虾米音乐用户协议。
-
-“网易云”、“网易云音乐”等文字、图形和商业标识，其著作权或商标权归网易所有。
-网易云音乐享有对其平台授权音乐的版权，请勿随意下载，复制版权内容。具体内容请参考网易云音乐用户协议。
-
-## :moneybag: 支持&捐赠
-开源不易，请大佬打赏点^V^ :moneybag:
-- 用于服务器日常费用
-- 加点油
-- 微信:
+텍스트, 그래픽 및 비즈니스 로고는 "Netease Cloud", "Netease Cloud Music", 저작권 또는 상표권이 그물에 속합니다.
+Netease 클라우드 음악은 해당 플랫폼에서 라이센스가 부여 된 음악 저작권을 누리고 저작권 내용을 복사하지 마십시오.자세한 내용은 Netease Cloud Music 사용자 계약을 참조하십시오.
+## :moneybag: 지원하다&捐赠
+오픈 소스는 쉽지 않습니다. ^ v ^ : moneybag를 보상하십시오 :
+- 서버의 일일 비용에 사용됩니다
+- 일부를 추가하십시오
+- WeChat :
 <img src="screenshots/donate_wechat.png" width="225" height="225"/>
 
-- 支付宝:
+- Alipay.:
 <img src="screenshots/donate_alipay.png" width="225" height="225"/>

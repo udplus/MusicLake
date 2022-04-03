@@ -274,38 +274,38 @@
     <string name="song_title">노래 제목</string>
     <string name="song_artist">가수</string>
     <string name="search_no_results">결과가 없다</string>
-    <string name="all">所有</string>
-    <string name="netease">网易云音乐</string>
-    <string name="qq">qq音乐</string>
-    <string name="xiami">虾米音乐</string>
+    <string name="all">모두</string>
+    <string name="netease">Netease Cloud Music.</string>
+    <string name="qq">QQ 음악</string>
+    <string name="xiami">자암 음악</string>
 
-    <string name="res_baidu">百度</string>
+    <string name="res_baidu">베이비</string>
     <string name="res_qq">QQ</string>
-    <string name="res_wangyi">网易云</string>
-    <string name="res_xiami">虾米</string>
-    <string name="res_local">本地</string>
+    <string name="res_wangyi">Netease Cloud.</string>
+    <string name="res_xiami">새우</string>
+    <string name="res_local">현지의</string>
 
-    <string name="equalizer">均衡器</string>
-    <string name="artist_tips">歌手 - 专辑</string>
-    <string name="song">歌曲</string>
-    <string name="lyric_default_hint">暂无歌词</string>
-    <string name="add_to_playlist">增加到歌单</string>
-    <string name="share_content">\"我正在使用 MusicLake 听音乐，我觉得很不错哦，推荐给你用一下，下载链接：https://github.com/caiyonglong/MusicLake/releases\"</string>
-    <string name="share_song_content">\n\n我分享的歌曲是 %1$s 的 %2$s"</string>
-    <string name="share_local_song">我正在听 %1$s的%2$s，喜欢的可以搜索一下哦!</string>
-    <string name="feedback_content">==============\n Android 版本号: %1$s \n\n 手机型号： %2$s %3$s \n\n软件版本号： %4$s\n==============\n\n反馈问题（如果有异常问题，麻烦描述一下复现情景哦，Thanks!）：\n "</string>
-    <string name="retry">重试</string>
-    <string name="general_error">网络错误</string>
-    <string name="qq_login_tips">QQ登录</string>
-    <string name="login_tips">登录后，可以使用在线同步歌单，Android端、PC端都可使用！</string>
-    <string name="bind_netease">绑定网易云音乐账号</string>
+    <string name="equalizer">평형 장치</string>
+    <string name="artist_tips">가수 - 앨범</string>
+    <string name="song">노래</string>
+    <string name="lyric_default_hint">가사가 없습니다</string>
+    <string name="add_to_playlist">노래 목록에 추가하십시오</string>
+    <string name="share_content">\"나는 사용하고있다 MusicLake 음악을 듣고, 나는 그것이 아주 좋다고 생각합니다, 나는 그것을 당신에게 추천, 링크를 다운로드하십시오 : https://github.com/caiyonglong/MusicLake/releases\"</string>
+    <string name="share_song_content">\n\n 나는 노래를 공유했다 %1$s 的 %2$s"</string>
+    <string name="share_local_song">나는 듣고있다 %1$s的%2$S, 당신은 그것을 검색 할 수 있습니다.!</string>
+    <string name="feedback_content">==============\n Android 버전 번호: %1$s \n\n 전화 모델 : %2$s %3$s \n\n 소프트웨어 버전 번호 : %4$s\n==============\n\n 피드백 문제 (비정상적인 문제가있는 경우 재생 시나리오를 설명하는 데 문제가있는 경우 감사합니다.!）：\n "</string>
+    <string name="retry">다시 해 보다</string>
+    <string name="general_error">네트워크 오류</string>
+    <string name="qq_login_tips">QQ 로그인</string>
+    <string name="login_tips">로그인 후 온라인 동기화 곡 목록, Android, PC 측면을 사용할 수 있습니다!</string>
+    <string name="bind_netease">바인딩 네스 클라우드 뮤직 계정</string>
 
 
-    <string name="popup_song_detail">歌曲详情</string>
-    <string name="popup_play_next">下一首播放</string>
-    <string name="popup_add_to_playlist">添加到歌单</string>
-    <string name="popup_detail">查看歌曲信息</string>
-    <string name="popup_download">下载歌曲</string>
+    <string name="popup_song_detail">노래 세부 사항</string>
+    <string name="popup_play_next">다음 놀이</string>
+    <string name="popup_add_to_playlist">노래 목록에 추가하십시오</string>
+    <string name="popup_detail">노래 정보보기</string>
+    <string name="popup_download">노래를 다운로드하십시오</string>
     <string name="popup_mv">相关MV</string>
     <string name="popup_cache">缓存歌曲</string>
     <string name="popup_delete">删除</string>
